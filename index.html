@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NoHamburger - シンプルで美味しい生活</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        header {
+            background: #f4f4f4;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            background: #333;
+            color: #fff;
+            padding: 1rem;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 1rem;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            color: #ddd;
+        }
+        .hero {
+            background: #e2e2e2;
+            padding: 2rem;
+            text-align: center;
+        }
+        .content {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 600px) {
+            nav ul {
+                flex-direction: column;
+                text-align: center;
+            }
+            nav ul li {
+                margin: 0.5rem 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>NoHamburger</h1>
+        <p>シンプルで美味しい生活をあなたに</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">ホーム</a></li>
+            <li><a href="#about">私たちについて</a></li>
+            <li><a href="#menu">メニュー</a></li>
+            <li><a href="#contact">お問い合わせ</a></li>
+        </ul>
+    </nav>
+    <section class="hero">
+        <h2>ハンバーガーじゃない、特別な食体験</h2>
+        <p>新鮮な食材とユニークなレシピで、あなたの食卓を彩ります。</p>
+    </section>
+    <section class="content">
+        <h2 id="about">私たちについて</h2>
+        <p>NoHamburgerは、従来のファストフードに代わる、健康的で創造的な食事を提供します。私たちのミッションは、シンプルかつ美味しい料理で人々を幸せにすることです。</p>
+        <h2 id="menu">メニュー</h2>
+        <p>新鮮なサラダ、季節のスープ、オリジナルスイーツなど、幅広いメニューをご用意しています。詳細は店舗でご確認ください！</p>
+        <h2 id="contact">お問い合わせ</h2>
+        <p>ご質問やご予約は、メール（info@nohamburger.com）または電話（012-345-6789）までお気軽にどうぞ。</p>
+    </section>
+    <footer>
+        <p>&copy; 2025 NoHamburger. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
